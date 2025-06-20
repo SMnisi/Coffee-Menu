@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+              background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+            }
+
+        .block{
+            background-color: burlywood;
+            margin-top: 100px;
+            margin-bottom: 100px;
+            width: 500px; 
+           }
+
+           .item{
+            display: flex;
+            justify-content:space-between;
+            padding: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+           }
+
+           h1, h2{
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           }
+
+           p{
+            text-align: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           }
+
+           hr{
+            height: 2px;
+            border-color: brown;
+            background-color: brown;
+           }
+
+           pre{
+            text-align: center;
+            font-style: italic;
+           }
+       
+    
+    </style>
+</head>
+<body>
+
+<div class="block">
+    <header>
+    <h1>CAMPER CAFE</h1>
+    <pre id="est"><strong>Est. 2020</strong></pre>
+    </header>
+    <hr>
+
+    <!--Coffee Section-->
+    <section>
+        <h2>Coffee</h2>
+        <article class="item">
+        <p class="flavor">French Vanilla</p>
+        <p class="price">3.00</p>
+        </article>
+
+        <article class="item">
+            <p class="flavor">Caramel Macchiato</p>
+            <p class="price">3.75</p>
+        </article>
+
+        <article class="item">
+            <p class="flavor">Pumpkin Spice</p>
+            <p class="price">3.50</p>
+        </article>
+
+        <article class="item">
+            <p class="flavor">Hazelnut</p>
+            <p class="price">4.00</p>
+        </article>
+
+        <article class="item">
+            <p class="flavor">Mocha</p>
+            <p class="price">4.50</p>
+        </article>
+    </section>
+
+    <!--Desserts Section-->
+    <section>
+        <h2>Desserts</h2>
+        <article class="item">
+            <p class="flavor">Donut</p>
+            <p class="price">1.50</p>
+        </article>
+
+        <article class="item">
+            <p class="flavor">Cherry pie</p>
+            <p class="price">2.75</p>
+        </article>
+
+        <article class="item">
+            <p class="flavor">Cheesecake</p>
+            <p class="price">3.00</p>
+        </article>
+    </section>
+
+    <footer class="address">
+        <p class="website">Visit our website</p>
+        <p class="venue">123 Free Code Camp Drive</p>
+    </footer>
+    </div>
+</body>
+</html>
